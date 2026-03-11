@@ -1,0 +1,19 @@
+/* 
+Dark Green: #1F3D2B
+Gold Accent: #C8A97E
+Cream Background: #F8F5F2
+Dark Text: #222
+ */
+
+.playfair-display-heading {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
