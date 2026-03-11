@@ -5,11 +5,17 @@ Cream Background: #F8F5F2
 Dark Text: #222
  */
 
+body {
+    margin: 0;
+    background-color: #F8F5F2;
+    font-size: 1rem;
+}
+
 .playfair-display-heading {
     font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
     font-weight: 600;
-    font-style: italic;
+    font-style: normal;
 }
 
 .poppins-regular {
@@ -21,4 +27,57 @@ Dark Text: #222
 .img-fluid {
     width: 15rem;
     height: auto;
+}
+
+/* header styling */
+.navbar {
+    background-color: #1F3D2B;
+    padding: 1rem 3rem;
+}
+
+.logo {
+    width: 10rem;
+    height: auto;
+}
+
+header {
+    padding: 1rem 3rem;
+    background-color: #1F3D2B;
+    margin-top: 3rem;
+}
+
+.navbar-nav {
+    gap: 1.5rem;
+}
+
+.nav-link {
+    color: #C8A97E;
+    letter-spacing: 2px;
+    font-size: 1.05rem;
+}
+
+.nav-link:hover {
+    color: #F8F5F2;
+    font-size: 1.1rem;
+}
+
+.navbar-toggler {
+    background-color: #C8A97E;
+}
+
+.nav-button {
+    background-color: #C8A97E;
+    color: #F8F5F2;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    border-radius: 0.5rem;
+    margin-left: 1.5rem;
+}
+
+.nav-button:hover {
+    background-color: #F8F5F2;
+    color: #1F3D2B;
+    font-size: 1.05rem;
 }
