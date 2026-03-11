@@ -8,7 +8,12 @@ Dark Text: #222
 body {
     margin: 0;
     background-color: #F8F5F2;
-    font-size: 1rem;
+    color: #222;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .playfair-display-heading {
@@ -18,18 +23,7 @@ body {
     font-style: normal;
 }
 
-.poppins-regular {
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-.img-fluid {
-    width: 15rem;
-    height: auto;
-}
-
-/* header styling */
+/*##### header styling #####*/
 .navbar {
     background-color: #1F3D2B;
     padding: 1rem 3rem;
@@ -66,7 +60,7 @@ header {
 }
 
 .nav-button {
-    background-color: #C8A97E;
+    background-color: #AC8442;
     color: #F8F5F2;
     border: none;
     padding: 0.5rem 1rem;
@@ -81,3 +75,90 @@ header {
     color: #1F3D2B;
     font-size: 1.05rem;
 }
+
+
+/*##### hero section styling #####*/
+.heroSection {
+    padding: 4rem 3rem;
+}
+
+.img-fluid {
+    width: 50rem;
+    height: auto;
+}
+
+.heroTextDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 0 5rem;
+}
+
+.heroSection p {
+    font-size: 1.25rem;
+}
+
+.buttonDiv {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.goldButton {
+    background-color: #AC8442;
+    color: #F8F5F2;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+    border-radius: 0.5rem;
+}
+
+.creamButton {
+    background-color: #F8F5F2;
+    color: #222;
+    border: 2px solid #AC8442;
+    padding: 0.5rem 1.5rem;
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+    border-radius: 0.5rem;
+}
+
+.goldButton:hover,
+.creamButton:hover {
+    transform: scale(1.05);
+}
+
+/*##### dishes section styling #####*/
+.dishSection {
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.dishSection h2 {
+    font-size: 2.5rem;
+    color: #1F3D2B;
+}
+
+.dishDiv {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.img-thumbnail {
+    width: 20rem;
+    height: 20rem;
+}
+
+
+/*##### header styling #####*/
+/*##### header styling #####*/
+/*##### header styling #####*/
+/*##### header styling #####*/

@@ -74,7 +74,8 @@
                         </li>
                     </ul>
 
-                    <button class="nav-button playfair-display-heading">Book Table</button>
+                    <button class="nav-button playfair-display-heading"
+                        onclick="location.href='pages/reservations.html'">Book Table</button>
                 </div>
             </div>
         </nav>
@@ -82,31 +83,33 @@
 
     <main>
         <!-- hero section -->
-        <section>
+        <section class="row gx-0 heroSection">
             <!-- left div -->
-            <div>
-                <h1>Savor the Taste of Italy</h1>
+            <div class="col-lg-6 heroTextDiv">
+                <h1 class="display-2 playfair-display-heading">Savor the Taste of Italy</h1>
                 <p>Authentic Italian cuisine made with fresh ingredients and traditional recipes.</p>
-                <button>View Menu</button>
-                <button>Reserve Table</button>
+                <div class="buttonDiv">
+                    <button class="goldButton">View Menu</button>
+                    <button class="creamButton">Reserve Table</button>
+                </div>
             </div>
 
             <!-- right div -->
-            <div>
+            <div class="col-lg-6">
                 <img src="assets/images/heroImage.webp" alt="hero image" class="img-fluid">
             </div>
         </section>
 
         <!-- signature dishes section -->
-        <section>
+        <section class="dishSection">
             <h2>Our Signature Dishes</h2>
             <p>Discover our most beloved dishes, crafted with passion and the finest ingredients.</p>
 
-            <div>
+            <div class="dishDiv">
 
                 <!-- card -->
-                <div class="card" style="width: 18rem;">
-                    <img src="assets/images/pizza.webp" class="card-img-top" alt="pizza">
+                <div class="card" style="width: 20rem;">
+                    <img src="assets/images/pizza.webp" class="card-img-top img-thumbnail" alt="pizza">
                     <div class="card-body">
                         <h5 class="card-title">Margherita Pizza</h5>
                         <p class="card-text">A classic Italian pizza topped with fresh tomatoes, mozzarella cheese, and
@@ -116,8 +119,8 @@
                 </div>
 
                 <!-- card -->
-                <div class="card" style="width: 18rem;">
-                    <img src="assets/images/spaghetti.webp" class="card-img-top" alt="spaghetti">
+                <div class="card" style="width: 20rem;">
+                    <img src="assets/images/spaghetti.webp" class="card-img-top img-thumbnail" alt="spaghetti">
                     <div class="card-body">
                         <h5 class="card-title">Spaghetti Carbonara</h5>
                         <p class="card-text">A traditional Italian pasta dish made with eggs, cheese, pancetta, and
@@ -127,8 +130,8 @@
                 </div>
 
                 <!-- card -->
-                <div class="card" style="width: 18rem;">
-                    <img src="assets/images/cake.webp" class="card-img-top" alt="cake">
+                <div class="card" style="width: 20rem;">
+                    <img src="assets/images/cake.webp" class="card-img-top img-thumbnail" alt="cake">
                     <div class="card-body">
                         <h5 class="card-title">Tiramisu</h5>
                         <p class="card-text">A classic Italian dessert made with coffee-soaked ladyfingers and
