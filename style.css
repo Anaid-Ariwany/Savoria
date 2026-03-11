@@ -17,3 +17,8 @@ Dark Text: #222
     font-weight: 400;
     font-style: normal;
 }
+
+.img-fluid {
+    width: 15rem;
+    height: auto;
+}
