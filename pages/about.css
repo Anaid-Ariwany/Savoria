@@ -1,0 +1,49 @@
+.section {
+    padding: 4rem 3rem;
+    margin: 3rem 0;
+}
+
+.aboutImage {
+    width: 40rem;
+    height: 40rem;
+}
+
+.rightDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+    line-height: 1.5;
+    padding-left: 2rem;
+}
+
+.aboutList img {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 1rem;
+}
+
+.rightDiv>.goldButton {
+    max-width: 15rem;
+}
+
+/* ############### responsive design ###############*/
+/* screens below 768px */
+@media (max-width: 768px) {
+    .rightDiv {
+        padding-top: 2rem;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .leftDiv {
+        display: flex;
+        justify-content: center;
+    }
+
+    .aboutImage {
+        width: 100%;
+        height: auto;
+    }
+}
