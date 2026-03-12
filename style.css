@@ -154,11 +154,105 @@ header {
 
 .img-thumbnail {
     width: 20rem;
-    height: 20rem;
+    height: 15rem;
+}
+
+.dishDiv>.card {
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dishDiv>.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 
-/*##### header styling #####*/
-/*##### header styling #####*/
-/*##### header styling #####*/
+/*##### reserve section styling #####*/
+.reserveSection {
+    padding: 3rem 1rem;
+    margin: 2rem 5rem;
+    background-color: #1F3D2B;
+    color: #F8F5F2;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.8rem;
+}
+
+.reserveSection h2 {
+    font-size: 2rem;
+    color: #C8A97E;
+}
+
+
+/*##### gallery section styling #####*/
+.gallerySection {
+    padding: 3rem;
+    margin: 3rem 0;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-shrink: 1;
+    justify-content: center;
+}
+
+.galleryImage {
+    width: 28rem;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+/*##### footer styling #####*/
+footer {
+    background-color: #1F3D2B;
+    color: #F8F5F2;
+    padding: 2rem 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footerLeftDiv,
+.footerMiddleDiv,
+.footerRightDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.footerIcons {
+    display: flex;
+    gap: 1rem;
+    padding-bottom: 1.5rem;
+}
+
+.footerIcons img:hover {
+    transform: scale(1.2);
+}
+
+footer a,
+.footerRightDiv h5 {
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: #C8A97E;
+}
+
+footer a:hover {
+    color: #F8F5F2;
+    font-size: 1.25rem;
+}
+
+footer li {
+    list-style: none;
+    padding-bottom: 0.8rem;
+}
+
+.footerLeftDiv>.logo {
+    padding-bottom: 2rem;
+}
+
 /*##### header styling #####*/
