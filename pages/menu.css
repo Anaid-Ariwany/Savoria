@@ -1,0 +1,9 @@
+.blockquote-footer::before {
+    content: "";
+}
+
+.blockquote {
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+}
