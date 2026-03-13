@@ -27,6 +27,10 @@
     max-width: 15rem;
 }
 
+.rightDiv h1 {
+    color: #1F3D2B;
+}
+
 /* ############### responsive design ###############*/
 /* screens below 768px */
 @media (max-width: 768px) {
