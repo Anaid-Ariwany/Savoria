@@ -40,7 +40,7 @@
 
     <!-- custom css -->
     <link rel="stylesheet" href="../style.css">
-    <link rel="stylesheet" href="pageStyles.css">
+    <link rel="stylesheet" href="reservations.css">
 
 </head>
 
@@ -82,6 +82,87 @@
         </nav>
     </header>
 
+    <main>
+        <!-- heading section -->
+        <section class="headingSection">
+            <h2>Reservations / Gallery Page</h2>
+            <p>Book your table or explore our gallery.</p>
+        </section>
+
+        <!-- reserve section -->
+        <section class="reservationSection">
+            <div class="card text-bg-dark">
+                <img src="../assets/images/pizza.webp" class="card-img" alt="pizza" fetchpriority="high"
+                    loading="eager">
+                <div class="card-img-overlay">
+                    <h5 class="card-title display-2 playfair-display-heading">Reserve Your Table</h5>
+                    <p class="card-text">Experience authentic italian dining.</p>
+
+                    <div>
+
+                        <!-- dropdown -->
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <span class="badge text-bg-secondary"><img src="../assets/icons/plan.webp"
+                                        alt="plan icon" class="icon"></span>
+                                Plan
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+
+
+                        <!-- dropdown -->
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <span class="badge text-bg-secondary"><img src="../assets/icons/time.webp"
+                                        alt="time icon" class="icon"></span>
+                                Time
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+
+                        <!-- dropdown -->
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <span class="badge text-bg-secondary"><img src="../assets/icons/reserve.webp"
+                                        alt="reserve icon" class="icon"></span>
+                                Book Now
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- gallery section -->
+        <section>
+            <div>
+                <img src="../assets/images/pizza.webp" alt="pizza" class="img-fluid" loading="lazy">
+                <img src="../assets/images/spaghetti.webp" alt="spaghetti" class="img-fluid" loading="lazy">
+                <img src="../assets/images/cake.webp" alt="cake" class="img-fluid" loading="lazy">
+                <img src="../assets/images/greens.webp" alt="greens" class="img-fluid" loading="lazy">
+                <img src="../assets/images/nuts.webp" alt="nuts" class="img-fluid" loading="lazy">
+                <img src="../assets/images/interior.webp" alt="interior" class="img-fluid" loading="lazy">
+            </div>
+        </section>
+    </main>
 
     <footer>
 
