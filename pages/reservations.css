@@ -35,6 +35,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 0.8rem;
+    justify-content: center;
 }
 
 .icon {
@@ -60,8 +61,9 @@
     color: #F8F5F2;
 }
 
-.gallerySection {
-    padding: 0 3rem;
+.pictureSection {
+    padding: 2rem 3rem;
+    margin-bottom: 3rem;
 }
 
 .galleryDiv {
@@ -73,8 +75,7 @@
 
 .galleryImage {
     width: 100%;
-    max-height: 15rem;
-    object-fit: cover;
+    height: 18rem;
     border-radius: 0.8rem;
 }
 
@@ -87,4 +88,98 @@
     padding: 0.3rem 0.7rem;
     font-size: 1.1rem;
     transition: transform 0.2s, box-shadow 0.2s;
+}
+
+
+/* ############### responsive design ###############*/
+/* screens below 992px */
+@media (max-width: 992px) {
+    .galleryImage {
+        height: 15rem;
+    }
+}
+
+/* screens below 791px */
+@media (max-width: 791px) {
+    .card {
+        border: none;
+        width: 100%;
+        height: 20rem;
+    }
+
+    .card-img,
+    .reserveImage,
+    .card-img-bottom,
+    .card-img-top {
+        max-width: 100%;
+        height: 20rem;
+    }
+
+    .galleryImage {
+        height: 12rem;
+    }
+}
+
+/* screens below 569px */
+@media (max-width: 569px) {
+    .card {
+        border: none;
+        width: 100%;
+        height: 30rem;
+    }
+
+    .card-img,
+    .reserveImage,
+    .card-img-bottom,
+    .card-img-top {
+        max-width: 100%;
+        height: 30rem;
+    }
+
+    .dropdownDiv {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .pictureSection {
+        padding: 2rem 1rem;
+    }
+
+    .galleryDiv {
+        gap: 0.8rem;
+    }
+
+    .galleryImage {
+        height: 10rem;
+    }
+}
+
+/* screens below 520px */
+@media (max-width: 520px) {
+
+    /* make two grid columns */
+    .galleryDiv {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* screens below 380px */
+@media (max-width: 380px) {
+    .headingSection {
+        padding: 2rem 1rem;
+    }
+
+    .card {
+        border: none;
+        width: 100%;
+        height: 35rem;
+    }
+
+    .card-img,
+    .reserveImage,
+    .card-img-bottom,
+    .card-img-top {
+        max-width: 100%;
+        height: 35rem;
+    }
 }
